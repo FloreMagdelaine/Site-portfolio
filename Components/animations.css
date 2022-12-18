@@ -1,0 +1,47 @@
+.slogan {
+  position : absolute;
+  z-index: 4;
+  margin-left: 20%;
+  margin-top: 20%;
+  animation-duration: 2s;
+  animation-name: glissement;
+}
+  
+  @keyframes glissement {
+  from {
+    margin-top: 0%;
+  }
+  
+  to {
+    margin-top: 20%;
+  }
+}
+
+.imgprincipale {
+  animation-duration: 2s;
+  animation-name: opacité;
+}
+
+@keyframes opacité {
+  from {
+    opacity: 0%;
+  }
+  
+  to {
+    opacity: 100%;
+  }
+}
+
+.popover__container:hover .popover__content {
+  animation-duration: 0.5s;
+  animation-name: opacité;
+}
+
+.reveal {
+  opacity: 0;
+}
+
+.reveal-visible {
+  opacity: 100%;
+  transition: opacity 2sec;
+}

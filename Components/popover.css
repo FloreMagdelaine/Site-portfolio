@@ -1,0 +1,31 @@
+.popover__title {
+  text-decoration: none;
+  text-align: center;
+}
+
+.popover__container {
+  position: relative;
+  margin-top: 2vh;
+  display: inline-block;
+}
+
+.popover__content {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popover__container:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  padding: 1.5vh;
+  width: auto;
+  visibility: visible;
+  background-color: lightgrey;
+  color: black;
+}
+
+.popover__message {
+  text-align: center;
+}

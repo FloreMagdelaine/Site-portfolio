@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Paintball';
+	src: url('/Assets/Paintball.otf') format('truetype');
+}
+
+* {
+    font-family: 'Noto Sans', Arial;
+}
+
+h* {
+    font-family: 'Merriweather', Arial;
+}
+
+.titre {
+    font-size: 2em;
+}
+
+.slogan {
+    color:aliceblue;
+    font-family: 'Paintball', Arial;
+    font-size: 4em;
+}
+
+.dessins h2, h3 {
+    font-family: 'Paintball', Arial;
+}
+
+.dessin1, .dessin4 {
+    color: rgb(40, 40, 40) ;
+}
+  
+.dessin5, .dessin6 {
+    color: rgb(170, 170, 170) ;
+}
+  
+.dessin7, .dessin8 {
+    color: rgb(200, 200, 200) ;
+}
+  
+.dessin9, .dessin10 {
+    color: rgb(210, 210, 210) ;
+}
+
+.donnees, h3 {
+    color: white
+}
+
