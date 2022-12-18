@@ -1,0 +1,61 @@
+@import url(Components/animations.css);
+@import url(Components/popover.css);
+@import url(components/images.css);
+@import url(Components/grille_dessins.css);
+@import url(components/fonts.css);
+@import url(Components/colors.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20vh;
+    gap: 15vh;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 20;
+}
+
+.footer {
+    padding-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+}
+
+@media screen and (max-width : 800px) {
+    .titre {
+        font-size: 1em; 
+    }
+
+    .navbar {
+        padding-left: 0vh;
+        gap: 5vh;
+    }
+
+    .slogan {
+        font-size: 1.5em;
+    }
+}
+
+.lineaire-simple {
+    background: rgb(1,34,78);
+    background: linear-gradient(0deg, rgba(1,34,78,1) 9%, rgba(255,255,255,1) 100%);
+    background-size : cover;
+}
+
